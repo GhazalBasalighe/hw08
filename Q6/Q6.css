@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*
+{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body
+{
+    width: 100%;
+}
+
+.circle-top
+{
+    position: fixed;
+    top: -16%;
+    right: -7%;
+    width: 275px;
+    height: 275px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    height: 98vh;
+}
+
+.card
+{
+    border-radius: 4px;
+    position: relative;
+    background-color: #FFF;
+    box-shadow: 0px 3px 7px 2px rgba(0, 0, 0, 0.15);
+    width: 19rem;
+}
+
+.card2
+{
+    margin: 1.45rem;
+}
+
+.number
+{
+    position: absolute;
+    left: 42%;
+    top: -8%;
+    box-shadow: 0px 3px 7px 2px rgba(0, 0, 0, 0.15);
+    border: 0.2px #A7A7A7;
+    background-color: #FFF;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 20px 30px;
+}
+
+.card .content img
+{
+    width: 3.75rem;
+    height: 3.75rem;
+    margin-top: 6rem;
+}
+
+.title
+{
+    padding: 2rem;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.text
+{
+    padding: 0 1rem 4rem 1rem;
+}
+
+.circle-bottom
+{
+    position: fixed;
+    bottom: -16%;
+    left: -7%;
+    width: 275px;
+    height: 275px;
+    z-index: -1;
+}
