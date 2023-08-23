@@ -1,0 +1,26 @@
+@media (max-width:75rem)
+{
+    .grid-container
+    {
+        gap: 1rem;
+        margin: 3rem auto;
+        width: 90%;
+    }
+}
+
+@media (max-width:50rem)
+{
+    .grid-container
+    {
+        grid-template-areas:
+            "item1 item2 "
+            "item5 item2 "
+            "item5 item6 "
+            "item3 item4 "
+            "item7 item4 "
+            "item7 item8"
+        ;
+        gap: 0.5rem;
+        margin: 3rem auto;
+    }
+}
