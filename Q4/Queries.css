@@ -1,0 +1,217 @@
+@media (max-width:94.5rem)
+{
+
+    .main1-content,
+    .main2-content,
+    .main3-content,
+    .main4-content
+    {
+        width: 51%;
+    }
+}
+
+@media (max-width:92rem)
+{
+    .box-title
+    {
+        margin: 30px;
+    }
+
+    .main3-content
+    {
+        width: 58%;
+    }
+
+    .main1-text
+    {
+        margin: 22px 40px
+    }
+}
+
+@media (max-width:71rem)
+{
+    .contact
+    {
+        padding: 10px
+    }
+
+    .main3-content
+    {
+        width: 65%;
+    }
+
+    .main1-text
+    {
+        margin: 22px 10px
+    }
+}
+
+@media (max-width:62.5rem)
+{
+    .bottom-bar
+    {
+        font-size: 18px;
+    }
+
+    .main3-content,
+    .main2-content,
+    .main1-content,
+    .main4-content
+    {
+        width: 78%;
+    }
+
+    .main1-title
+    {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .contact
+    {
+        font-size: 14px;
+        padding: 5px
+    }
+}
+
+@media (max-width:56.25rem)
+{
+    .main3-content
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-box,
+    .middle-box,
+    .right-box
+    {
+        margin: 10px 15px;
+        width: 30rem;
+    }
+
+    box-title
+    {
+        margin: 20px;
+    }
+
+    .box-text
+    {
+
+        margin: 30px 15px;
+
+    }
+
+    .main5
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blue-bottom-box,
+    .black-bottom-box
+    {
+        width: 100%;
+    }
+
+    .email
+    {
+        margin-bottom: 30px;
+    }
+
+    .bottom-bar
+    {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:36.25rem)
+{
+    .bottom-bar
+    {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .contact
+    {
+        padding: 0px 20px;
+        font-size: 0.8rem;
+    }
+
+    .bottom-bar div
+    {
+        margin: 0.2rem;
+    }
+
+    .main,
+    .bottom-bar
+    {
+        font-size: 0.8rem;
+    }
+
+    .main3-content
+    {
+        width: 50%;
+    }
+
+    .main2-content
+    {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+    .box-title
+    {
+        margin: 20px;
+    }
+
+    .box-text
+    {
+        margin: 30px 30px;
+    }
+
+    .main1-title,
+    .main2-title,
+    .main4-title
+    {
+        font-size: 18px;
+        font-weight: 900;
+        margin: 10px;
+    }
+
+    .main1-text,
+    .main2-text,
+    .main4-text
+    {
+        margin: 15px 0px;
+    }
+
+    .main1-title
+    {
+        margin: 5px;
+    }
+
+    .main5-title
+    {
+        margin: 20px;
+    }
+
+    .contact
+    {
+        margin-bottom: 40px;
+    }
+
+    .left-box,
+    .middle-box,
+    .right-box
+    {
+        margin: 10px 15px;
+        width: 18rem;
+    }
+
+    .web-development
+    {
+        flex-direction: column;
+    }
+}

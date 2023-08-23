@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*
+{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.084);
+}
+
+.main1,
+.main2,
+.main3,
+.main4,
+.main5
+{
+    display: flex;
+    justify-content: center;
+}
+
+.main1-content,
+.main2-content,
+.main3-content,
+.main4-content
+{
+    width: 50%;
+}
+
+/* MAIN 1 */
+.main1
+{
+    background-color: rgb(51, 51, 51);
+    color: rgba(255, 255, 255, 0.934);
+    padding-top: 3.125rem;
+    padding-bottom: 4.375rem;
+}
+
+.main1-title
+{
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.main1-text
+{
+    margin: 22px 3.125rem;
+}
+
+/* MAIN 2 */
+.main2
+{
+    padding-top: 10px;
+    padding-bottom: 18px;
+}
+
+.main2-title
+{
+    margin-bottom: 18px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.main2-text
+{
+    margin: 10px;
+}
+
+/* MAIN 3 */
+.main3
+{
+    background-color: rgb(51, 51, 51);
+}
+
+.main3-content
+{
+    display: flex;
+    justify-content: center;
+}
+
+.web-development
+{
+    display: flex;
+}
+
+/* MAIN 4 */
+.main4-title
+{
+    margin: 38px;
+    font-weight: 700;
+}
+
+.main4-text
+{
+    margin-bottom: 1.875rem;
+}
+
+/* MAIN 5 */
+.main5-title
+{
+    margin: 40px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.contact
+{
+    margin-bottom: 58px;
+}
+
+.email
+{
+    margin-top: -1.875rem;
+}
+
+.left-box,
+.middle-box,
+.right-box
+{
+    background-color: white;
+    margin: 25px 13px;
+    width: 25%;
+}
+
+.box-title
+{
+    margin-top: 38px;
+}
+
+.box-text
+{
+
+    margin: 20px 10px
+}
+
+.blue-bottom-box,
+.black-bottom-box
+{
+    background-color: rgb(38, 144, 212);
+    color: rgba(255, 255, 255, 0.934);
+    width: 50%;
+}
+
+.black-bottom-box
+{
+    background-color: rgb(51, 51, 51);
+}
+
+.bottom-bar
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.926);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.link-bottom-bar
+{
+    color: rgb(23, 93, 137);
+    text-decoration: none;
+}
+
+button
+{
+    background-color: rgb(51, 51, 51);
+    border: 1px solid rgba(255, 255, 255, 0.169);
+    color: white;
+    padding: 10px 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+}
+
+button:hover
+{
+    background-color: rgb(45, 45, 45);
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    cursor: pointer;
+    font-size: 14px;
+}
